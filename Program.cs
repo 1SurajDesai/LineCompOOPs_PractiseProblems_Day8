@@ -6,8 +6,10 @@ namespace LineComparisonProblemWithObject
         public static void Main(string[] args)
         {
             //Console.WriteLine("Welcome to Line Comparison Computation Program.");
-            CalLengthofLine callength = new CalLengthofLine();
-            callength.CalculateLength();
+            //CalLengthofLine callength = new CalLengthofLine();
+            //callength.CalculateLength();
+            EqualityOfLines equalityOfLines = new EqualityOfLines();
+            equalityOfLines.CheckEqualityOfLines(); 
 
         }
     }
